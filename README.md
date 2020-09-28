@@ -38,3 +38,7 @@ Ubuntu下xming乱码问题sudo apt-get install fonts-noto-cjk
     cmd = \"/usr/bin/bcompare\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\" \"$MERGED\"
 [commit]
 	template = /home/z00476673/.gitmsg
+	
+	
+更新代码：
+git add .;git stash;git pull;git stash apply 0
